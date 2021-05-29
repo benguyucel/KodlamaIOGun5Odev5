@@ -10,7 +10,7 @@ namespace KodlamaIOGun5Odev5
         static void Main(string[] args)
         {
             Campaign campaign  = new Campaign { Id = 5, CampaignName = "Yaz indirimi", DiscountRate = 20 };
-            Customer customer = new Customer { Id = 1, FirsName = "Yücel", LastName = "bengü", DateOfBirth = new DateTime(1992, 05, 01), NationalityID = "16436762184" };
+            Customer customer = new Customer { Id = 1, FirsName = "Yücel", LastName = "bengü", DateOfBirth = new DateTime(1988, 05, 01), NationalityID = "22222222222222" };
             Product product = new Product { Id = 1, Price = 1000, Name = "AssasinCreed" };
            
             CustomerMenager customerMenager = new CustomerMenager(new CustomerCheckAdapter());
